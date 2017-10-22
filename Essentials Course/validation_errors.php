@@ -6,9 +6,9 @@
     </head>
     <body>
         <?php
-		require_once('validation_function.php');
+		require_once('validation_functions.php');
 		$errors = array();
-		$username = trim("kuldip");
+		$username = trim("AlxCrmr");
 		if (!has_presence($username)) {
 			$errors['value'] = "Usename can't be blank";
 		}

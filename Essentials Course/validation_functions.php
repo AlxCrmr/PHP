@@ -1,29 +1,27 @@
 <?php
-	// * Presence
-	//
+	// *PRESENCE
 		function has_presence($value){
 			return isset($value) && $value !== "";
 		}
 
-	// * String length
-		// max leangth
-		$value = "asedfs";
-		$max = 6;
-		function has_max_lenght($value,$max){
+	//  STRING LENGTH
+		// max length
+		function has_max_length($value,$max){
 			return strlen($value) <= $max ;
 		}
-	// * inclusion in a set
+	//  INCLUSION IN A SET
 		$find = 10;
 		function has_inclusion_in($value,$set){
 			return in_array($value, $set);
 		}
-		function valid_max_length($field_with_max_length){
-		foreach ($field_with_max_length as $field => $max) {
-			$value = trim($_POST[$field]);
-			if (!has_max_lenght($value,$max)) {
-				$errors[$field] = $field." is too long.";
+		function validate_max_length($field_with_max_length){
+			global $errors;
+			foreach ($field_with_max_length as $field => $max) {
+				$value = trim($_POST[$field]);
+				if (!has_max_length($value, $max)) {
+					$errors[$field] = ucfirst($field) . " is too long.";
+				}
 			}
-		}
 		}
 		function form_error($errors = array()){
 		$output = "";

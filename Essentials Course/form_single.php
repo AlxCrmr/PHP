@@ -1,10 +1,10 @@
 <?php
-	require_once('included_function.php');
+	require_once('included_functions.php');
 	if (isset($_POST['submit'])) {
 		// form submitted
 			$username = $_POST['username'];
 			$password = $_POST['password'];
-		if ($username == "kuldip" && $password == "kul") {
+		if ($username == "AlxCrmr" && $password == "password") {
 			//successful error
 			redirected_to('basic.php');
 		}else{
