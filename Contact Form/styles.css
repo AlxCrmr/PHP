@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #c12457;
+    font-family: sans-serif;
+}
+.container {
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+form {
+    width: 650px;
+    background: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+input {
+    height: 30px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+input[type=text] {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 195px;
+}
+form input[type=email] {
+    width: 530px;
+}
+textarea {
+    resize: none;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #8b6573;
+}
+
+input[type=submit]{
+    width: 120px;
+    height: 40px;
+    background:#c12457;
+    color: #FFF;
+    border: none;
+    font-size:  1.1rem;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+    opacity: .9;
+}
+
+
+h4.error {
+    color: red;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+a.button {
+    text-decoration: none;
+    color: #e02c68;
+}
+
+a.button:hover {
+    color: #9d3d5d;
+}
+
+.show-sent-message {
+    text-align: center;
+}
+
+h3 {
+    color: #ff0063;
+}
+
+@media only screen and (max-width: 730px) {
+    .container {
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    form {
+        width: 500px;
+    }
+    input[type=text] {
+        width: 130px;
+    }
+    form input[type=email], textarea, input[type=submit] {
+        width: 460px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    form {
+        width: 290px;
+    }
+    input[type=text], form input[type=email], textarea, input[type=submit] {
+        width: 250px;
+    }
+    input[type=text] {
+        position: relative;
+        right: 5px;
+    }
+    label {
+        display:none;
+    }
+
+}
