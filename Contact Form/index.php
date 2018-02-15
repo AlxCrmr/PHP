@@ -21,6 +21,7 @@
 
                 ?>
 
+
             <?php
                             // Check to see if $name or $email have header injections
                             if (has_header_injection($name) ||has_header_injection($lastname) || has_header_injection($email)) {

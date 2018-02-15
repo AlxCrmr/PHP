@@ -5,4 +5,5 @@
         return preg_match ( "/[\r\n]/", $str );
     }
 
+
 ?>

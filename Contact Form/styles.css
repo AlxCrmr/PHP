@@ -42,11 +42,9 @@ textarea {
     padding: 5px;
     margin-top: 5px;
 }
-
 input::placeholder, textarea::placeholder {
     color: #8b6573;
 }
-
 input[type=submit]{
     width: 120px;
     height: 40px;
