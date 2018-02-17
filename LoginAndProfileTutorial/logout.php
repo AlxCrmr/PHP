@@ -16,7 +16,6 @@
 
     echo "You've been logged out! See you next time.<br>";
 
-
     //print_r($_SESSION);
 
     echo "<p><a href='login.php'>Log back in</a></p>";

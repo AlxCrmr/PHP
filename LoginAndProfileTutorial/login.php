@@ -15,7 +15,6 @@
     // connect to database
     include('connection.php');
 
-
     // create SQL query
     $query = "SELECT username, email, password FROM users WHERE username='$formUser'";
 
