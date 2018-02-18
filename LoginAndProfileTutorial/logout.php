@@ -8,6 +8,7 @@
 
     }
 
+
     // clear all session variables
     session_unset();
 
