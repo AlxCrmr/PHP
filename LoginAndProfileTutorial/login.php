@@ -7,7 +7,6 @@
         return $formData;
     }
 
-
     // create variables
     // wrap the data with our function
     $formUser = validateFormData( $_POST['username'] );
