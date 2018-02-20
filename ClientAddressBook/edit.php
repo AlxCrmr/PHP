@@ -11,6 +11,7 @@ $clientID = $_GET['id'];
 include('includes/connection.php');
 include('includes/functions.php');
 
+ 
 $query = "SELECT * FROM clients WHERE id='$clientID'";
 $result = mysqli_query( $conn, $query );
 

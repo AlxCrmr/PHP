@@ -12,6 +12,7 @@ include('includes/functions.php');
 
 if( isset( $_POST['add'] ) ) {
 
+
     $clientName = $clientEmail = $clientPhone = $clientAddress = $clientCompany = $clientNotes = "";
 
     if( !$_POST["clientName"] ) {

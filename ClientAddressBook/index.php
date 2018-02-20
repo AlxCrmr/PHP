@@ -12,6 +12,7 @@ if( isset( $_POST['login'] ) ) {
 
     $query = "SELECT name, password FROM users WHERE email='$formEmail'";
 
+
     $result = mysqli_query( $conn, $query );
 
     if( mysqli_num_rows($result) > 0 ) {

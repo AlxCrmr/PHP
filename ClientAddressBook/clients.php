@@ -10,7 +10,7 @@ include('includes/connection.php');
 
 $query = "SELECT * FROM clients";
 $result = mysqli_query( $conn, $query );
-
+ 
 if( isset( $_GET['alert'] ) ) {
 
     if( $_GET['alert'] == 'success' ) {
