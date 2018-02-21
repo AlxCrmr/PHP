@@ -14,5 +14,4 @@
 		<hr>
 	</div><!-- philosophy -->
 
-
 <?php include('includes/footer.php'); ?>

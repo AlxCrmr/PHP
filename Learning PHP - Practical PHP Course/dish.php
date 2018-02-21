@@ -15,8 +15,6 @@
             $dish = $menuItems[$menuItem];
         }
 
-
-
         // Calculate suggested tip
     	function suggestedTip($price, $tip) {
             $totalTip = $price * $tip;

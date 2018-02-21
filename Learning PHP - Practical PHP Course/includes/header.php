@@ -25,5 +25,4 @@
 			<?php include('includes/nav.php'); ?>
 		</div><!-- nav -->
 
-
 		<div class="content">
