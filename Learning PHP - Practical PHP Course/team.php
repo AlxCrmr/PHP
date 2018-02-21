@@ -19,6 +19,7 @@
 				<p><?php echo $member["bio"]; ?></p>
 			</div><!-- member -->
 
+
 		<?php } ?>
 
 	</div><!-- team-members -->

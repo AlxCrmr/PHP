@@ -16,6 +16,7 @@
         }
 
 
+
         // Calculate suggested tip
     	function suggestedTip($price, $tip) {
             $totalTip = $price * $tip;

@@ -26,6 +26,7 @@
 
         <br>
 
+
         <?php include('includes/store-hours.php'); ?>
 
     </div><!-- column -->

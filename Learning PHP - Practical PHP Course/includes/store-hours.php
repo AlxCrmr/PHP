@@ -27,6 +27,7 @@ $hours = array(
     'mon' => array('00:00-00:00')
 );
 
+
 // Optional: add exceptions (great for holidays etc.)
 // Works best with format month/day
 // Leave array empty if no exceptions

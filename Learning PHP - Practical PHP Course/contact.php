@@ -16,6 +16,7 @@
                 return preg_match ( "/[\r\n]/", $str );
             }
 
+
             if (isset ($_POST['contact_submit'])) {
                 $name = trim($_POST['name']);
                 $email = trim($_POST['email']);
